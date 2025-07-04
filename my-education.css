@@ -1,0 +1,101 @@
+*{
+     
+     text-decoration: none;
+     
+}
+
+html{
+    padding-bottom: 50px;
+    background-color: burlywood;
+}
+
+section{
+     min-height: 110vh;
+     padding: 10rem 9% 2rem;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease;
+}
+
+.head{
+    font-size: 3rem;
+    color:  maroon;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 70px;
+    
+}
+.navbar {
+    font-size: 1.5rem;
+    color: red;
+    margin-left: 23rem;
+    font-weight: 700;
+    transition: 0.3s ease;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: bisque;
+    color: maroon;
+}
+
+
+table {
+    border: 3px solid skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 60%;
+    border-collapse: collapse;
+    
+}
+
+.bau{
+    width: 50px;
+    height: 40px;
+    padding-left: 250px;
+}
+
+td {
+    border: 3px solid skyblue;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 10px;
+    white-space: nowrap ;
+} 
+
+
+caption {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.tmkm {
+    padding-left: 225px;
+    width: 60px;
+    height: 60px;
+}
+
+.jqsm {
+    padding-left: 235px;
+    width: 50px;
+    height: 50px;
+}
+
